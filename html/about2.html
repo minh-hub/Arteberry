@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibition</title>
+    <link rel="stylesheet" href="/css/painting2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aaace752e9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper-wrapper">
+        <div class="wrapper">
+            <div class="banner">
+                <ul>
+                    <li><a href="painting2.html"><i class="arrow"></i>Gallery</a></li>
+                    <li><a href="about2.html"><i class="arrow"></i>About</a></li>
+                </ul>
+            </div>
+            <a id="toggle" href="">
+                <div class="toggle">
+                    <i id="iconion" class="fas fa-bars fa-2x"></i>
+                </div>
+            </a>
+            <div id="welcomeblock2">
+                <h1 style="font-size:80px">Arte <span style="font-weight: 400; color: rgba(35, 85, 126, 0.781);">Berry</span> <br>
+                    <h1>The place to share your pictures</h1> 
+            </div>
+            <div id="blackbar"></div>
+            <div id="hello">
+                <h1 style="font-size:40px">
+                    Our <span style="font-weight: 500; color: rgba(35, 85, 126, 0.781);">inspiration</span>
+                </h1>
+                <p style="font-size:35">
+                Yoshiki Okamura's art gallery                    
+                </p>
+                <br><br><Br><br><br><Br>
+                    <h1 style="font-size:40px">
+                        <span style="font-weight: 400; color: rgba(35, 85, 126, 0.781);">How long</span> do we <span style="font-weight: 400; color: rgba(35, 85, 126, 0.781);">update?</span>
+                    </h1>
+                    <p style="font-size:35">
+                    Every two weeks.
+                    </p>
+                <br><br><Br><br><br><Br>
+                <h1 style="font-size:40px">
+                    For more <span style="font-weight: 400; color: rgba(35, 85, 126, 0.781);">information</span>, contact:
+                </h1>
+                
+                    <p style="font-size:35">
+                        <b>Kiet:</b><br>Email:
+                        <input type="text" value="onepoppyboi27@gmail.com" id="myInput">
+                        <button onclick="myFunction()">Copy email</button>
+                        <br><br>
+                        <b>Minh:</b><br>Email:	
+                        <input type="text" value="ngocminhwis@gmail.com" id="myInput">
+                        <button onclick="myFunction()">Copy email</button>
+                    </p>
+            </div>
+                
+            
+            
+        </div>
+        </section>
+        <script src="/js/painting.js"></script>
+        <script>
+            function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied email: " + copyText.value);
+}
+        </script>
+</body>
+
+</html>
